@@ -17,6 +17,9 @@ public class ClienteDTO {
     private Date fechaInicio;
     private Date fechaNacimiento;
 
+    public ClienteDTO() {
+    }
+
     public ClienteDTO(Cliente model) {
         this.id = model.getId();
         this.razonSocial = model.getRazonSocial();

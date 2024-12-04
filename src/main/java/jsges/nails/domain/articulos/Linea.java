@@ -16,4 +16,7 @@ public class Linea extends TipoObjeto {
     public Linea(LineaDTO model) {
         this.setDenominacion(model.getDenominacion());
     }
+
+    public Linea() {
+    }
 }
